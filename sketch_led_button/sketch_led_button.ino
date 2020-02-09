@@ -15,5 +15,8 @@ void loop(){
     int buttonState = digitalRead(PIN_BUTTON);
     
     // Determine the led condition (turn on or turn of) by using button state
-    digitalWrite(PIN_LED, buttonState);
+    if (buttonState == HIGH) {
+      digitalWrite(PIN_LED, LOW);
+    } else 
+      digitalWrite(PIN_LED, HIGH);
 }
