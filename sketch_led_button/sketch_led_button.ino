@@ -1,6 +1,6 @@
 // Declare the variables and initialize it
 const int PIN_LED = 12;
-const int PIN_BUTTON = 8;
+const int PIN_BUTTON = 2;
 
 void setup(){
     // Set the PIN_LED as an output
