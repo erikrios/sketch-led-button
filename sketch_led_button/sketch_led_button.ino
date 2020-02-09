@@ -17,6 +17,7 @@ void loop(){
     // Determine the led condition (turn on or turn of) by using button state
     if (buttonState == HIGH) {
       digitalWrite(PIN_LED, LOW);
+      delay(2000);
     } else 
       digitalWrite(PIN_LED, HIGH);
 }
